@@ -1,0 +1,38 @@
+package MyProjectPackage;
+
+import java.util.Scanner;
+
+class Gusser {
+	int Gussernum;
+	
+	public int takeNumberGusser() {
+		System.out.println("Gusser Guess a number : ");
+		Scanner sc = new Scanner(System.in);
+		Gussernum = sc.nextInt();
+		return Gussernum;
+	}	
+}
+
+class Player {
+	int Playernum;
+	
+	public int takeNumberGusser() {
+		System.out.println("Gusser Guess a number : ");
+		Scanner sc = new Scanner(System.in);
+		Playernum = sc.nextInt();
+		return Playernum;
+	}
+}
+
+class Umpire {
+	
+}
+
+public class GasserGameProject {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
